@@ -2,9 +2,9 @@
 
 ### HANDS ON
 ```
-	TOPICS | LABS
-	------ | ----
-	SQL injection | 16
+	| TOPICS | LABS |
+	| ------ | ---- |
+	| SQL injection | 16 |
 	Cross-site scripting | 30
 	Cross-site request forgery (CSRF) | 8
 	Clickjacking | 5
