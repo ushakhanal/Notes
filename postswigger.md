@@ -24,6 +24,4 @@
 	Information disclosure | 5
 	Business logic vulnerabilities | 11
 	HTTP Host header attacks | 6
-	------------|-----
-	TOTAL | 191
 ```
